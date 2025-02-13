@@ -6,10 +6,12 @@
     <title>Daiji Design - Luxury Architecture & Interior Design</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
-    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+    <script src="tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         .marquee-text {
             overflow: clip;
           }
@@ -49,7 +51,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#about" class="text-white hover:text-custom transition">About</a>
                     <a href="#projects" class="text-white hover:text-custom transition">Projects</a>
-                    <a href="#testimonials" class="text-white hover:text-custom transition">Testimonials</a>
+                    <a href="#our-clients" class="text-white hover:text-custom transition">Our Clients</a>
                     <a href="#contact" class="text-white hover:text-custom transition">Contact</a>
                 </div>
                 <button class="md:hidden text-white">
@@ -74,7 +76,7 @@
         </div>
     </header>
 
-    <section id="our-clients" class="py-12 bg-gray-100">
+    <section id="our-clients" class="py-24 bg-gray-100">
         <div class="max-w-8xl mx-auto px-6">
             <h2 class="font-['Playfair_Display'] text-4xl font-bold text-center mb-8">Our Clients</h2>
             <div class="marquee-text">
